@@ -3,7 +3,7 @@ import './App.css';
 import './categories.styles.scss';
 import Home from './routes/home/home.component';
 import Navigation from './routes/navigation/navigation.component';
-import SignIn from './routes/sign-in/sign-in.component';
+import Authentication from './routes/authentication/authentication';
 import Cart from './routes/cart/cart.component';
 const Shop = ()=>{
   return(
@@ -18,7 +18,7 @@ const App = ()=> {
       <Route path="/" element={<Navigation/>}>
         <Route index element={ <Home/>}/>
         <Route path="shop" element={<Shop/>}/>
-        <Route path="sign-in" element={<SignIn/>}/>
+        <Route path="authentication" element={<Authentication/>}/>
         <Route path="cart" element={<Cart/>}/>
       </Route>
       
