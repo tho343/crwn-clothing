@@ -6,13 +6,8 @@ import Home from './routes/home/home.component';
 import Navigation from './routes/navigation/navigation.component';
 import Authentication from './routes/authentication/authentication';
 import Cart from './routes/cart/cart.component';
-const Shop = ()=>{
-  return(
-    <div>
-      <h1>I am the shop</h1>
-    </div>
-  )
-}
+import Shop from './routes/shop/shop.component';
+
 const App = ()=> {
   return(
     <Routes>
